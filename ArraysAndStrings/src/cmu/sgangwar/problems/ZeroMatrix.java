@@ -76,13 +76,13 @@ public class ZeroMatrix {
 	}
 	
 	private static void setColumnZero(int[][] matrix,int columnNumber){
-		for(int i=1; i< matrix.length;i++){
+		for(int i=0; i< matrix.length;i++){
 			matrix[i][columnNumber]=0;
 		}
 	}
 	
 	private static void setRowZero(int[][] matrix,int rowNumber){
-		for(int i=1; i< matrix[0].length;i++){
+		for(int i=0; i< matrix[0].length;i++){
 			matrix[rowNumber][i]=0;
 		}
 	}
